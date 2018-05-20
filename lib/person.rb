@@ -7,6 +7,7 @@ class Person
     attributes.each do |key, value|
       self.send(("#{key}="), value)
     end
+    binding.pry
   end
 end
 
@@ -21,4 +22,8 @@ class Person
     end
   end
 end
+<<<<<<< HEAD
 =end
+=======
+=end
+>>>>>>> 9633a8c036d21eea62539e7577ad04eb4228c9a7
