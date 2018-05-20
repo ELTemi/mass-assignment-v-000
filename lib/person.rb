@@ -7,8 +7,9 @@ class Person
     attributes.each do |key, value|
       self.send(("#{key}="), value)
     end
-    binding.pry
+    
   end
+  binding.pry
 end
 
 =begin
