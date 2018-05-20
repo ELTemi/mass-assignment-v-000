@@ -6,10 +6,11 @@ class Person
   def initialize(attributes)
     attributes.each do |key, value|
       self.send(("#{key}="), value)
+      binding.pry
     end
-    
+
   end
-  binding.pry
+  
 end
 
 =begin
@@ -25,6 +26,4 @@ class Person
 end
 <<<<<<< HEAD
 =end
-=======
-=end
->>>>>>> 9633a8c036d21eea62539e7577ad04eb4228c9a7
+
