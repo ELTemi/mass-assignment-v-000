@@ -10,7 +10,7 @@ class Person
     end
 
   end
-  
+
 end
 
 =begin
@@ -26,4 +26,3 @@ class Person
 end
 <<<<<<< HEAD
 =end
-
